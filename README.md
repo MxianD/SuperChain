@@ -1,2 +1,1 @@
-"# SuperChain" 
-next.js clsx sass gray-matter
+Front-end	next.js clsx gray-matter
