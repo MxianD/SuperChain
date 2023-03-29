@@ -1,0 +1,49 @@
+.header{
+    width: 100vw;
+    height: 10vh;
+    background-color: rgba(36, 37, 38, 1);
+    border-bottom: 5px solid rgb(33, 34, 35);
+    color: white;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+/**/
+.headLog{
+    flex: 2;
+    margin-left: 5vw;
+    font-size: 50px;
+}
+/**/
+.headMenu{
+    flex: 3;
+    display: flex;
+    font-size: 30px;
+    justify-content: space-around;
+}
+.headerMenu_firstKid{
+    flex: 1;
+}
+.headerMenu_secondKid{
+    flex: 1;
+}
+.headerMenu_thirdKid{
+    flex: 1;
+}
+/**/
+.headUser{
+    flex: 2;
+    display: flex;
+    font-size: 40px;
+    justify-content: space-around;
+    margin-left: 10vw;
+}
+.headerUser_userAccount{
+    flex: 1;
+}
+.headerUser_userWallet{
+    flex: 1;
+}
+.headerUser_userOtherThing{
+    flex: 1;
+}

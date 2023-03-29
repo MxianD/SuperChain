@@ -1,1 +1,1 @@
-Front-end	next.js clsx gray-matter
+Front-end	next.js clsx sass gray-matter linter antd redux
