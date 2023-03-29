@@ -3,4 +3,12 @@
     height:70vh;
     background-color: rgba(36, 37, 38, 1);
     border-bottom: 5px solid rgb(33, 34, 35);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.entry{
+    width: 20vw;
+    height: 10vh;
+    font-size: 4.5vh;
 }

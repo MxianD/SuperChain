@@ -3,15 +3,12 @@ import Link from 'next/link'
 import Head from "next/head"
 import { Button } from "antd";
 import Header from "@/components/header/header";
-import MainContent from "@/components/mainContent/mainContent";
-import BottomContent from "@/components/bottomContent/bottomContent";
+import MainContent_System from "@/components/system/mainContent_system/mainContent_system";
 
 export default function Home() {
     return (<div>
         <Header />
-        <MainContent>
-        </MainContent>
-        <BottomContent></BottomContent>
-
+        <MainContent_System>
+        </MainContent_System>
     </div>)
 }
