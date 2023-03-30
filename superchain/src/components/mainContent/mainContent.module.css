@@ -1,6 +1,6 @@
 .mainContent{
     width: 100vw;
-    height:70vh;
+    height:120vh;
     background-color: rgba(36, 37, 38, 1);
     border-bottom: 5px solid rgb(33, 34, 35);
     display: flex;
@@ -11,4 +11,6 @@
     width: 20vw;
     height: 10vh;
     font-size: 4.5vh;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 9vh;
 }

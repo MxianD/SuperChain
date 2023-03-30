@@ -20,10 +20,13 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-redux": "^8.0.5",
+    "react-router-dom": "^6.10.0",
     "remark": "^14.0.2",
     "remark-html": "^15.0.2"
   },
   "devDependencies": {
-    "sass": "^1.59.3"
+    "@svgr/cli": "^7.0.0",
+    "sass": "^1.59.3",
+    "scss": "^0.2.4"
   }
 }

@@ -1,5 +1,28 @@
 .leftNavigator{
     width: 12%;
     height: 100%;
-    border-right: 5px solid rgb(33, 34, 35);;
+    border-right: 5px solid rgb(33, 34, 35);
+    display: flex;
+    color: aliceblue;
+    font-size: min(4.5vh,2.5vw);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    flex-direction: column;
+}
+.theNFT{
+    height: 9vh;
+    text-align: center;
+    line-height: 9vh;
+    border-bottom: 5px solid rgb(33, 34, 35);
+}
+.pool{
+    height: 9vh;
+    text-align: center;
+    line-height: 9vh;
+    border-bottom: 5px solid rgb(33, 34, 35);
+}
+.myGames{
+    height: 9vh;
+    text-align: center; 
+    line-height: 9vh;
+    border-bottom: 5px solid rgb(33, 34, 35);
 }

@@ -12,6 +12,5 @@ export default function Home() {
         <MainContent>
         </MainContent>
         <BottomContent></BottomContent>
-
     </div>)
 }

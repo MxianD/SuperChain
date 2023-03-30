@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import styles from '@/components/header/header.module.css'
+import Link from "next/link";
 import {
     UserOutlined,
     WalletOutlined,
@@ -7,7 +8,9 @@ import {
 export default function Header() {
     return (
         <div className={styles.header}>
-            <div className={styles.headLog}>Superchain</div>
+            <Link href='/' className={styles.headLog}>
+             Superchain
+            </Link>
             <div className={styles.headMenu}>
                 <div className={styles.headerMenu_firstKid}>Document</div>
                 <div className={styles.headerMenu_secondKid}>Community</div>

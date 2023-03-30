@@ -3,4 +3,43 @@
     height:25vh;
     background-color: rgba(36, 37, 38, 1);
     border-bottom: 5px solid rgb(33, 34, 35);
+    display: flex;
+    color: aliceblue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: min(3.7vh,2.5vw);
+    
+}
+.left{
+    flex: 1;
+    margin-left: 1vw;
+}
+.left dl dd{
+    margin-left: 1vw;
+    color:rgb(199, 199, 199);
+    font-size: min(2.5vh,1.7vw);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 0.7vh;
+}
+.right{
+    flex: 1;
+}
+.communityIcon{
+    margin-top: 2vh;
+    margin-left: 1vw;
+    height: 7vh;
+    display: flex;
+}
+
+.twitterOutlined{
+}
+.githubOutlined{
+    margin-left: 1vw;
+}
+.discordIcon{
+    width: 42px;
+    height: 42px;
+    margin-left: 1vw;
+}
+.redditOutlined{
+    margin-left: 1vw;
 }
